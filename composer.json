@@ -1,0 +1,25 @@
+{
+  "name": "exafred/admin-view-current-page",
+  "type": "grav-plugin",
+  "description": "Add a button to the admin panel that takes you to the current page on the frontend of the site",
+  "version": "1.0.0",
+  "keywords": ["plugin"],
+  "homepage": "https://github.com/exafred/grav-plugin-admin-view-current-page",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Cat's Paw Studios",
+      "email": "catspawstudios@pm.me",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Grav\\Plugin\\ViewCurrentPageFromAdmin\\": "classes/"
+    },
+    "classmap":  ["admin-view-current-page.php"]
+  }
+}

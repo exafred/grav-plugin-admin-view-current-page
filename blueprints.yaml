@@ -3,13 +3,13 @@ slug: admin-view-current-page
 type: plugin
 version: 0.1.0
 description: Add a button to the admin panel that takes you to the current page on the frontend of the site
-icon: plug
+icon: link
 author:
   name: Cat's Paw Studios
   email: catspawstudios@pm.me
 homepage: https://github.com/exafred/grav-plugin-admin-view-current-page
 demo: http://demo.yoursite.com
-keywords: grav, plugin, etc
+keywords: grav, plugin, admin, pages,
 bugs: https://github.com/exafred/grav-plugin-admin-view-current-page/issues
 docs: https://github.com/exafred/grav-plugin-admin-view-current-page
 license: MIT
@@ -17,7 +17,7 @@ license: MIT
 dependencies:
   - { name: grav, version: '>=1.7.0' }
   - { name: admin, version: '>=1.8.0' }
-  
+
 form:
   validation: loose
   fields:

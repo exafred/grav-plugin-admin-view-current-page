@@ -11,12 +11,13 @@ homepage: https://github.com/exafred/grav-plugin-admin-view-current-page
 demo: http://demo.yoursite.com
 keywords: grav, plugin, etc
 bugs: https://github.com/exafred/grav-plugin-admin-view-current-page/issues
-docs: https://github.com/exafred/grav-plugin-admin-view-current-page/main/README.md
+docs: https://github.com/exafred/grav-plugin-admin-view-current-page
 license: MIT
 
 dependencies:
   - { name: grav, version: '>=1.7.0' }
-
+  - { name: admin, version: '>=1.8.0' }
+  
 form:
   validation: loose
   fields:

@@ -91,10 +91,10 @@ class AdminViewCurrentPagePlugin extends Plugin {
 		// modular page instead. Modular pages should 
 		// only be able to have modules as children,
 		// but better safe than sorry?
-		$folder = $page->folder();
+		$folder = preg_replace("/^\d+\._/", "_", $page->folder());
 		while(substr($folder, 0, 1) == "_") {
 			$page = $page->parent();
-			$folder = $page->folder();
+			$folder = preg_replace("/^\d+\._/", "_", $page->folder());
 		}
 		$route = $this->grav['base_url'] . $page->slug();
 

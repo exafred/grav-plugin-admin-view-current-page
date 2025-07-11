@@ -64,3 +64,5 @@ This plugin uses an awful lot of [Sebastian Laube's Draft Preview plugin](https:
 
 - [ ] Double-check multi-language support is OK
 - [ ] Add option to automatically clear page cache when button is clicked
+- [ ] Make it so the button will only show up if the pertinent page is routable & published (can be reached via the frontend)
+- [ ] Add ability for meta key + click -> copy URL
